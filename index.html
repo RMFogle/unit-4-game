@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <!--add meta viewport link-->
+
+  <title>Crystal Collector Game</title>
+
+<!--Use bootstrap link?-->
+
+<!--Include links style.css sheet if nessecary and include rest.css above style sheet and bootstrap -->
+
+</head>
+
+<body>
+
+
+<!--Header with name of game "Crystal Collector"-->
+<header>
+    <h1>Crystals Collector</h1>
+</header>
+
+<!---Box with game instructions-->
+<div class="game-instructions"></div>
+
+<!---Box displaying computer random generated number "target number for player to hit"-->
+<div class="target-number">
+  <div id="match-number">
+    <h2>Match this number:</h2>
+  </div>
+</div>
+
+<!---Box displaying "Wins" and "Losses" 
+and within box text will appear when player wins or losses with a message "You Win!" or "You Lose!"
+try an empty Div and push the message text when the result matches the outcome(try fade in/fade out jQuery)-->
+<div class="wins-losses">
+  <div id="wins">
+    <h2>Wins:</h2>
+  </div>
+  <div id="losses">
+    <h2>Losses:</h2>
+  </div>
+</div>
+
+<!--Four buttons, one for each crystal, that holds a hidden random number generated for the player to click 
+create the four buttons in jQuery use img, class and or id here-->
+
+<div class="container">
+
+  <div class="button-one">Button One</div>
+
+  <div class="button-two">Button Two</div>
+
+  <div class="button-three">Button Three</div>
+
+  <div class="button-four">Button Four</div>
+
+</div>
+
+
+
+<!--Box displaying "Your Total Score" showing increments as one of the four buttons is clicked-->
+<div class="player-total">
+  <div id="total-score">
+    <h2>Your total score is:</h2>
+  </div>
+</div>
+
+
+<!--jQuery CDN here-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!--Javascript link here-->
+<script src="assets/javascript/game.js"></script>
+
+
+</body>
+
+</html>
