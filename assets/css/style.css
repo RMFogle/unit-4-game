@@ -1,0 +1,97 @@
+body {
+    color: white;
+    background-color: black; 
+}
+
+* { 
+    box-sizing: border-box; 
+}
+
+.main-container {
+    background: url("../images/e2hmlw323v701.gif"); 
+    height: 500px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+header {
+    text-align: center; 
+    font-family: 'VT323', monospace, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.game-instructions {
+    position: relative; 
+    left: 20px; 
+    width: 40%; 
+}
+
+.target-number {
+    float: left; 
+    position: relative; 
+    left: 280px; 
+}
+
+#match-number,
+#total-score, 
+#wins,
+#losses {
+    font-size: 42px;  
+}
+
+.wins-losses {
+    float: right; 
+    position: relative; 
+    right: 200px; 
+}
+
+.container {
+    clear: both; 
+    text-align: center; 
+}
+
+.main {
+    display: inline-block; 
+}
+
+h2 {
+    display: inline-block; 
+}
+
+img {
+    height: 75px; 
+    width: 75px; 
+}
+
+.button-one {
+    float: left; 
+    position: relative; 
+}
+
+.button-two {
+    float: left; 
+    position: relative; 
+}
+
+.button-three {
+    float: left; 
+    position: relative; 
+}
+
+.button-four {
+    float: left; 
+    position: relative; 
+}
+
+
+.player-total {
+    clear: both; 
+    position: relative;
+    font-size: 18px; 
+}
+
+
+h2, h3 {
+    display: inline-block; 
+}
+
