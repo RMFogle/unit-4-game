@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 // Generate random number to be displayed when the page loads. 
 // Random number should be between 19-120. 
-var randomNumber = Math.floor(Math.random() * 120) + 19;  
+var randomNumber = Math.floor(Math.random() * 102) + 19;  
 $('#match-number').html("<h2>Match this number:  </h2>" + randomNumber); 
 console.log("Match this number: " + randomNumber); 
 
@@ -27,7 +27,7 @@ var losses = 0;
 // Create game reset. 
 
 function resetGame() {
-    randomNumber = Math.floor(Math.random() * 120) + 19;  
+    randomNumber = Math.floor(Math.random() * 102) + 19;  
     $('#match-number').html("<h2>Match this number:  </h2>" + randomNumber); 
     console.log("Match this number: " + randomNumber); 
     buttonOne = Math.floor(Math.random() * 12) + 1;
